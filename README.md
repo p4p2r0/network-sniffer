@@ -31,11 +31,13 @@ watching what your own traffic looks like without leaving the shell.
 
 ## Installation
 Requirements: Python 3.11+, root/administrator privileges (raw sockets need
-them on every OS), and [`uv`](https://docs.astral.sh/uv/).  
+them on every OS), and [`uv`](https://docs.astral.sh/uv/).
 
 Linux/macOS also need `libpcap` for BPF filters, usually already installed;
 otherwise `sudo dnf install libpcap` (Fedora) or `sudo apt install libpcap0.8`
-(Debian/Ubuntu). Windows needs [Npcap](https://npcap.com/) with WinPcap
+(Debian/Ubuntu).
+
+Windows needs [Npcap](https://npcap.com/) with WinPcap
 Compatibility Mode enabled.
 
 ```bash
